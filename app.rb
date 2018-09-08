@@ -8,7 +8,7 @@ class App < Sinatra::Base
 
 
 		get "/info" do #will show up under url plus /info
-      "Testing the info page"
+      erb :info
     end
 
 
