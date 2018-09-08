@@ -8,7 +8,7 @@ class App < Sinatra::Base
 
 
 		get "/info" do #will show up under url plus /info
-      erb :info
+      erb :info #name of file doesn't need to match name of route, although is convention
     end
 
 
