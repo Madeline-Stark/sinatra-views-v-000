@@ -7,7 +7,7 @@ class App < Sinatra::Base
 		end
 
 
-		get "/info" do #will show up as url plus /info
+		get "/info" do #will show up under url plus /info
       "Testing the info page"
     end
 
